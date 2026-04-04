@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Poonam Taxak | Java Backend Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400&family=Syne:wght@400;500;600;700;800&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="header" id="header">
+    <nav class="nav container">
+      <a href="#home" class="nav-logo">PT<span class="logo-dot">.</span></a>
+      <ul class="nav-menu" id="nav-menu">
+        <li><a href="#home" class="nav-link">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#experience" class="nav-link">Experience</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#certifications" class="nav-link">Certs</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </nav>
+  </header>
+
+  <!-- HOME -->
+  <section class="hero" id="home">
+    <div class="hero-grid-bg"></div>
+    <div class="floating-orb orb-1"></div>
+    <div class="floating-orb orb-2"></div>
+    <div class="floating-orb orb-3"></div>
+
+    <div class="hero-particles" id="particles"></div>
+
+    <div class="container hero-content">
+      <div class="hero-badge">
+        <span class="badge-dot"></span>
+        Available for Opportunities
+      </div>
+      <h1 class="hero-name">Poonam<br/><span class="name-accent">Taxak</span></h1>
+      <div class="hero-role">
+        <span class="role-prefix">&lt;</span>
+        <span class="typed-text" id="typed"></span>
+        <span class="cursor-blink">|</span>
+        <span class="role-suffix">/&gt;</span>
+      </div>
+      <p class="hero-desc">
+        Building scalable, secure, and production-ready backend systems with Java &amp; Spring Boot. Passionate about clean architecture, performance optimization, and modern backend solutions.
+      </p>
+      <div class="hero-cta">
+        <a href="#projects" class="btn btn-primary">
+          <i class="fas fa-code"></i> View Projects
+        </a>
+        <a href="#contact" class="btn btn-outline">
+          <i class="fas fa-paper-plane"></i> Contact Me
+        </a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat">
+          <span class="stat-num">10<span class="stat-plus">+</span></span>
+          <span class="stat-label">APIs Built</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat">
+          <span class="stat-num">200<span class="stat-plus">+</span></span>
+          <span class="stat-label">Problems Solved</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat">
+          <span class="stat-num">3<span class="stat-plus">+</span></span>
+          <span class="stat-label">Projects</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="scroll-indicator">
+      <span>Scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="about section" id="about">
+    <div class="container">
+      <div class="section-label fade-in">
+        <span class="label-num">01</span>
+        <span class="label-line"></span>
+        <span class="label-text">About Me</span>
+      </div>
+      <div class="about-grid">
+        <div class="about-photo-col fade-in">
+          <div class="photo-frame">
+            <div class="photo-placeholder">
+              <i class="fas fa-user-circle"></i>
+              <span>Poonam Taxak</span>
+            </div>
+            <div class="photo-border-accent"></div>
+            <div class="photo-corner tl"></div>
+            <div class="photo-corner tr"></div>
+            <div class="photo-corner bl"></div>
+            <div class="photo-corner br"></div>
+          </div>
+          <div class="about-social-strip">
+            <a href="https://linkedin.com" target="_blank" class="social-icon-btn" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+            <a href="https://github.com" target="_blank" class="social-icon-btn" title="GitHub"><i class="fab fa-github"></i></a>
+            <a href="https://leetcode.com" target="_blank" class="social-icon-btn" title="LeetCode"><i class="fas fa-code"></i></a>
+          </div>
+        </div>
+        <div class="about-text-col fade-in">
+          <h2 class="section-title">The Developer Behind the Code</h2>
+          <p class="about-para">
+            I'm a Java Backend Developer with hands-on internship experience in building scalable, secure backend applications using Java and Spring Boot. I specialize in RESTful API development, Spring Security with JWT authentication, and cloud deployment on AWS EC2 — with a strong focus on performance and reliability.
+          </p>
+          <p class="about-para">
+            My foundation in Data Structures &amp; Algorithms (200+ problems solved), OOP, and SOLID principles drives my approach to writing clean, maintainable code. I've contributed to database optimization achieving 35% performance improvements, led 20+ code reviews, and built systems capable of handling 1000+ concurrent requests. I graduated with a CGPA of 8.6 and earned Academic Excellence recognition in my BCA program.
+          </p>
+          <div class="about-info-grid">
+            <div class="info-item">
+              <i class="fas fa-map-marker-alt"></i>
+              <span>India</span>
+            </div>
+            <div class="info-item">
+              <i class="fas fa-graduation-cap"></i>
+              <span>BCA, 2025</span>
+            </div>
+            <div class="info-item">
+              <i class="fas fa-envelope"></i>
+              <span>poonamtaxak04@gmail.com</span>
+            </div>
+            <div class="info-item">
+              <i class="fas fa-phone"></i>
+              <span>+91-9588354986</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section class="skills section" id="skills">
+    <div class="container">
+      <div class="section-label fade-in">
+        <span class="label-num">02</span>
+        <span class="label-line"></span>
+        <span class="label-text">Skills</span>
+      </div>
+      <h2 class="section-title centered fade-in">Technical Arsenal</h2>
+      <p class="section-sub fade-in">Technologies &amp; tools I work with daily</p>
+
+      <div class="skills-categories">
+        <div class="skill-category fade-in">
+          <div class="cat-header">
+            <i class="fas fa-coffee"></i>
+            <h3>Core Language</h3>
+          </div>
+          <div class="skill-tags">
+            <span class="skill-tag primary">Java</span>
+            <span class="skill-tag primary">OOP</span>
+            <span class="skill-tag primary">Multithreading</span>
+            <span class="skill-tag primary">JDBC</span>
+            <span class="skill-tag primary">Exception Handling</span>
+          </div>
+        </div>
+
+        <div class="skill-category fade-in">
+          <div class="cat-header">
+            <i class="fas fa-leaf"></i>
+            <h3>Spring Ecosystem</h3>
+          </div>
+          <div class="skill-tags">
+            <span class="skill-tag spring">Spring Boot</span>
+            <span class="skill-tag spring">Spring Security</span>
+            <span class="skill-tag spring">Spring MVC</span>
+            <span class="skill-tag spring">Spring Data JPA</span>
+            <span class="skill-tag spring">Hibernate</span>
+            <span class="skill-tag spring">Lombok</span>
+          </div>
+        </div>
+
+        <div class="skill-category fade-in">
+          <div class="cat-header">
+            <i class="fas fa-database"></i>
+            <h3>Databases &amp; Cache</h3>
+          </div>
+          <div class="skill-tags">
+            <span class="skill-tag db">MySQL</span>
+            <span class="skill-tag db">SQL</span>
+            <span class="skill-tag db">Redis</span>
+          </div>
+        </div>
+
+        <div class="skill-category fade-in">
+          <div class="cat-header">
+            <i class="fas fa-cloud"></i>
+            <h3>Cloud &amp; DevOps</h3>
+          </div>
+          <div class="skill-tags">
+            <span class="skill-tag cloud">AWS EC2</span>
+            <span class="skill-tag cloud">Docker</span>
+            <span class="skill-tag cloud">Maven</span>
+            <span class="skill-tag cloud">Git</span>
+            <span class="skill-tag cloud">GitHub</span>
+          </div>
+        </div>
+
+        <div class="skill-category fade-in">
+          <div class="cat-header">
+            <i class="fas fa-network-wired"></i>
+            <h3>Architecture &amp; APIs</h3>
+          </div>
+          <div class="skill-tags">
+            <span class="skill-tag arch">REST API</span>
+            <span class="skill-tag arch">Microservices</span>
+            <span class="skill-tag arch">MVC Architecture</span>
+            <span class="skill-tag arch">JWT Authentication</span>
+            <span class="skill-tag arch">SOLID Principles</span>
+          </div>
+        </div>
+
+        <div class="skill-category fade-in">
+          <div class="cat-header">
+            <i class="fas fa-vial"></i>
+            <h3>Testing &amp; Tools</h3>
+          </div>
+          <div class="skill-tags">
+            <span class="skill-tag tools">JUnit 5</span>
+            <span class="skill-tag tools">Postman</span>
+            <span class="skill-tag tools">DSA</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section class="experience section" id="experience">
+    <div class="container">
+      <div class="section-label fade-in">
+        <span class="label-num">03</span>
+        <span class="label-line"></span>
+        <span class="label-text">Experience</span>
+      </div>
+      <h2 class="section-title centered fade-in">Work Experience</h2>
+
+      <div class="timeline fade-in">
+        <div class="timeline-line"></div>
+        <div class="timeline-item">
+          <div class="timeline-dot">
+            <i class="fas fa-briefcase"></i>
+          </div>
+          <div class="timeline-card">
+            <div class="exp-header">
+              <div>
+                <h3 class="exp-title">Java Backend Developer Intern</h3>
+                <span class="exp-company"><i class="fas fa-building"></i> Infotact Solutions (Remote)</span>
+              </div>
+              <span class="exp-duration">
+                <i class="fas fa-calendar"></i> Nov 2025 – Feb 2026
+              </span>
+            </div>
+            <ul class="exp-bullets">
+              <li>
+                <span class="bullet-icon"><i class="fas fa-angle-right"></i></span>
+                Developed 10+ RESTful APIs using Java and Spring Boot with robust validation, authentication, and centralized exception handling to improve backend reliability and maintainability.
+              </li>
+              <li>
+                <span class="bullet-icon"><i class="fas fa-angle-right"></i></span>
+                Optimized database performance using Spring Data JPA and MySQL by improving entity relationships, query optimization, and indexing strategies.
+              </li>
+              <li>
+                <span class="bullet-icon"><i class="fas fa-angle-right"></i></span>
+                Collaborated in 20+ peer code reviews and debugging sessions to improve code quality, reduce technical debt, and enhance maintainability.
+              </li>
+              <li>
+                <span class="bullet-icon"><i class="fas fa-angle-right"></i></span>
+                Implemented backend features following MVC architecture and SOLID principles to ensure scalable and modular application design.
+              </li>
+            </ul>
+            <div class="exp-tags">
+              <span>Java</span><span>Spring Boot</span><span>MySQL</span><span>REST API</span><span>MVC</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section class="projects section" id="projects">
+    <div class="container">
+      <div class="section-label fade-in">
+        <span class="label-num">04</span>
+        <span class="label-line"></span>
+        <span class="label-text">Projects</span>
+      </div>
+      <h2 class="section-title centered fade-in">Featured Projects</h2>
+      <p class="section-sub fade-in">Things I've built from scratch</p>
+
+      <div class="projects-grid">
+
+        <div class="project-card fade-in">
+          <div class="project-card-inner">
+            <div class="project-num">01</div>
+            <div class="project-icon-wrap">
+              <i class="fas fa-network-wired"></i>
+            </div>
+            <h3 class="project-title">Distributed API Gateway &amp; Rate Limiter</h3>
+            <div class="project-tech-row">
+              <span>Java</span><span>Spring Boot</span><span>Spring Security</span><span>Redis</span>
+            </div>
+            <ul class="project-bullets">
+              <li><i class="fas fa-chevron-right"></i> Designed and implemented a distributed API gateway for centralized request routing and filtering across microservices.</li>
+              <li><i class="fas fa-chevron-right"></i> Implemented Redis-based rate limiting capable of handling 1000+ concurrent requests to prevent API abuse.</li>
+              <li><i class="fas fa-chevron-right"></i> Applied Controller-Service-Repository and MVC architecture patterns to improve system maintainability and extensibility.</li>
+            </ul>
+            <div class="project-footer">
+              <span class="project-highlight"><i class="fas fa-bolt"></i> 1000+ concurrent requests handled</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card fade-in">
+          <div class="project-card-inner">
+            <div class="project-num">02</div>
+            <div class="project-icon-wrap">
+              <i class="fas fa-file-alt"></i>
+            </div>
+            <h3 class="project-title">Resume &amp; Job Matcher Backend</h3>
+            <div class="project-tech-row">
+              <span>Java</span><span>Spring Boot</span><span>MySQL</span><span>JUnit</span>
+            </div>
+            <ul class="project-bullets">
+              <li><i class="fas fa-chevron-right"></i> Developed secure Spring Boot REST APIs for resume and job management with validated CRUD operations.</li>
+              <li><i class="fas fa-chevron-right"></i> Improved database performance by 35% by resolving N+1 query problems and optimizing MySQL indexing strategies.</li>
+              <li><i class="fas fa-chevron-right"></i> Automated 50+ API test cases using JUnit and Postman, reducing manual testing effort and improving reliability.</li>
+            </ul>
+            <div class="project-footer">
+              <span class="project-highlight"><i class="fas fa-chart-line"></i> 35% DB performance boost</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card fade-in">
+          <div class="project-card-inner">
+            <div class="project-num">03</div>
+            <div class="project-icon-wrap">
+              <i class="fas fa-bell"></i>
+            </div>
+            <h3 class="project-title">Real-Time Distributed Alerting Service</h3>
+            <div class="project-tech-row">
+              <span>Spring Boot</span><span>Spring Security</span><span>AWS EC2</span><span>JWT</span>
+            </div>
+            <ul class="project-bullets">
+              <li><i class="fas fa-chevron-right"></i> Developed backend services for real-time alerting systems with secure authentication using JWT.</li>
+              <li><i class="fas fa-chevron-right"></i> Secured 10+ REST endpoints with Spring Security and JWT authentication to prevent unauthorized access.</li>
+              <li><i class="fas fa-chevron-right"></i> Deployed the backend system on AWS EC2 ensuring scalable cloud-based deployment and reliable availability.</li>
+            </ul>
+            <div class="project-footer">
+              <span class="project-highlight"><i class="fas fa-cloud"></i> Deployed on AWS EC2</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CERTIFICATIONS -->
+  <section class="certifications section" id="certifications">
+    <div class="container">
+      <div class="section-label fade-in">
+        <span class="label-num">05</span>
+        <span class="label-line"></span>
+        <span class="label-text">Certifications</span>
+      </div>
+      <h2 class="section-title centered fade-in">Certifications &amp; Achievements</h2>
+
+      <div class="certs-grid">
+
+        <div class="cert-card fade-in">
+          <div class="cert-icon"><i class="fab fa-java"></i></div>
+          <div class="cert-info">
+            <h4>Java Certificate</h4>
+            <span class="cert-issuer">HackerRank</span>
+            <span class="cert-year">2025</span>
+          </div>
+          <div class="cert-badge"><i class="fas fa-award"></i></div>
+        </div>
+
+        <div class="cert-card fade-in">
+          <div class="cert-icon"><i class="fas fa-code"></i></div>
+          <div class="cert-info">
+            <h4>DSA &amp; Backend Development in Java</h4>
+            <span class="cert-issuer">Infosys</span>
+            <span class="cert-year">2025</span>
+          </div>
+          <div class="cert-badge"><i class="fas fa-award"></i></div>
+        </div>
+
+        <div class="cert-card fade-in">
+          <div class="cert-icon"><i class="fas fa-database"></i></div>
+          <div class="cert-info">
+            <h4>Java Hibernate Certification</h4>
+            <span class="cert-issuer">Simplilearn</span>
+            <span class="cert-year">2025</span>
+          </div>
+          <div class="cert-badge"><i class="fas fa-award"></i></div>
+        </div>
+
+        <div class="cert-card achievement fade-in">
+          <div class="cert-icon"><i class="fas fa-trophy"></i></div>
+          <div class="cert-info">
+            <h4>CodeChef Bronze Badge</h4>
+            <span class="cert-issuer">Top 10% in Competitive Programming</span>
+            <span class="cert-year">Achievement</span>
+          </div>
+          <div class="cert-badge gold"><i class="fas fa-medal"></i></div>
+        </div>
+
+        <div class="cert-card achievement fade-in">
+          <div class="cert-icon"><i class="fas fa-terminal"></i></div>
+          <div class="cert-info">
+            <h4>200+ Problems Solved</h4>
+            <span class="cert-issuer">LeetCode &amp; HackerRank</span>
+            <span class="cert-year">Achievement</span>
+          </div>
+          <div class="cert-badge gold"><i class="fas fa-star"></i></div>
+        </div>
+
+        <div class="cert-card achievement fade-in">
+          <div class="cert-icon"><i class="fas fa-graduation-cap"></i></div>
+          <div class="cert-info">
+            <h4>Academic Excellence Award</h4>
+            <span class="cert-issuer">Top 10 in BCA — CGPA 8.6</span>
+            <span class="cert-year">Achievement</span>
+          </div>
+          <div class="cert-badge gold"><i class="fas fa-crown"></i></div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CODING PROFILES -->
+  <section class="coding-profiles section" id="profiles">
+    <div class="container">
+      <div class="section-label fade-in">
+        <span class="label-num">06</span>
+        <span class="label-line"></span>
+        <span class="label-text">Coding Profiles</span>
+      </div>
+      <h2 class="section-title centered fade-in">Find Me Online</h2>
+      <div class="profiles-row">
+
+        <a href="https://linkedin.com" target="_blank" class="profile-card fade-in" data-profile="linkedin">
+          <div class="profile-icon"><i class="fab fa-linkedin-in"></i></div>
+          <div class="profile-info">
+            <h4>LinkedIn</h4>
+            <span>Professional Network</span>
+          </div>
+          <i class="fas fa-arrow-right profile-arrow"></i>
+        </a>
+
+        <a href="https://github.com" target="_blank" class="profile-card fade-in" data-profile="github">
+          <div class="profile-icon"><i class="fab fa-github"></i></div>
+          <div class="profile-info">
+            <h4>GitHub</h4>
+            <span>Source Code &amp; Projects</span>
+          </div>
+          <i class="fas fa-arrow-right profile-arrow"></i>
+        </a>
+
+        <a href="https://leetcode.com" target="_blank" class="profile-card fade-in" data-profile="leetcode">
+          <div class="profile-icon"><i class="fas fa-code"></i></div>
+          <div class="profile-info">
+            <h4>LeetCode</h4>
+            <span>200+ Problems Solved</span>
+          </div>
+          <i class="fas fa-arrow-right profile-arrow"></i>
+        </a>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact section" id="contact">
+    <div class="container">
+      <div class="section-label fade-in">
+        <span class="label-num">07</span>
+        <span class="label-line"></span>
+        <span class="label-text">Contact</span>
+      </div>
+      <h2 class="section-title centered fade-in">Let's Build Something</h2>
+      <p class="section-sub fade-in">Open to Java Backend Developer roles and exciting opportunities</p>
+
+      <div class="contact-grid">
+        <div class="contact-info fade-in">
+          <h3>Get In Touch</h3>
+          <p>Whether you have a job opportunity, a project idea, or just want to say hi — my inbox is open. I'll do my best to get back to you!</p>
+          <div class="contact-items">
+            <a href="mailto:poonamtaxak04@gmail.com" class="contact-item">
+              <div class="contact-icon"><i class="fas fa-envelope"></i></div>
+              <div>
+                <span class="ci-label">Email</span>
+                <span class="ci-value">poonamtaxak04@gmail.com</span>
+              </div>
+            </a>
+            <a href="tel:+919588354986" class="contact-item">
+              <div class="contact-icon"><i class="fas fa-phone"></i></div>
+              <div>
+                <span class="ci-label">Phone</span>
+                <span class="ci-value">+91-9588354986</span>
+              </div>
+            </a>
+            <div class="contact-item">
+              <div class="contact-icon"><i class="fas fa-map-marker-alt"></i></div>
+              <div>
+                <span class="ci-label">Location</span>
+                <span class="ci-value">India</span>
+              </div>
+            </div>
+          </div>
+          <div class="contact-socials">
+            <a href="https://linkedin.com" target="_blank" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+            <a href="https://github.com" target="_blank" class="social-link"><i class="fab fa-github"></i></a>
+            <a href="https://leetcode.com" target="_blank" class="social-link"><i class="fas fa-code"></i></a>
+          </div>
+        </div>
+
+        <form class="contact-form fade-in" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+          <div class="form-group">
+            <label for="name">Your Name</label>
+            <input type="text" id="name" name="name" placeholder="John Doe" required/>
+          </div>
+          <div class="form-group">
+            <label for="email">Your Email</label>
+            <input type="email" id="email" name="email" placeholder="john@example.com" required/>
+          </div>
+          <div class="form-group">
+            <label for="subject">Subject</label>
+            <input type="text" id="subject" name="subject" placeholder="Job Opportunity / Collaboration"/>
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" placeholder="Tell me about the role or project..." required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary btn-full">
+            <i class="fas fa-paper-plane"></i> Send Message
+          </button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <span class="footer-logo">PT<span class="logo-dot">.</span></span>
+      <p class="footer-copy">&copy; 2025 Poonam Taxak. All rights reserved.</p>
+      <div class="footer-socials">
+        <a href="https://linkedin.com" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+        <a href="https://github.com" target="_blank"><i class="fab fa-github"></i></a>
+        <a href="https://leetcode.com" target="_blank"><i class="fas fa-code"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- BACK TO TOP -->
+  <button class="back-to-top" id="backToTop" aria-label="Back to top">
+    <i class="fas fa-chevron-up"></i>
+  </button>
+
+  <script src="script.js"></script>
+</body>
+</html>
